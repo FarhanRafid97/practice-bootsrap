@@ -1,0 +1,10 @@
+.btn-hover {
+    background-color: black;
+    border: 1px solid gray;
+    transition: 0.5s;
+}
+
+.btn-hover:hover {
+    background-color: gray;
+    transform: rotatey(180deg) scale(1.2);
+}
